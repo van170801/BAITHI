@@ -1,0 +1,56 @@
+body{
+    background: rgb(68, 144, 159);
+}
+.b{
+    font-size: 30px;
+    color: aliceblue;
+    font-style: oblique;
+    text-align: center;
+    margin-top: 100px;
+}
+.button {
+    position: relative;
+    background-color: #9E9E9E;
+    -webkit-border-radius: 10px;
+    border: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 8px 0px #878787, 0px 8px 20px #000000;
+    box-shadow: 0px 8px 0px #878787, 0px 8px 20px #000000;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 34px;
+    padding: 2px 10px;
+    text-align: center;
+    cursor:pointer;
+    text-decoration: none;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+	left: 40%;
+    margin-top: 100px auto;
+    top: 100%;
+  }
+   
+  .button:active {
+    -webkit-box-shadow: 0px 2px 0px #878787, 0px 2px 8px #000000;
+    box-shadow: 0px 2px 0px #878787, 0px 2px 8px #000000;
+    top: 7px;
+  }
+  
+  /* doan nay cac ban khong can coppy*/
+  #header {
+    position: relative;
+    min-height: 150px;
+  }
+  
+  #header-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  #header, #header * {
+    background: rgba(40, 40, 100, 0.25);
+  }

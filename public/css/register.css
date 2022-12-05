@@ -1,0 +1,19 @@
+body{
+    background: rgb(68, 144, 159);
+  }
+  .col-12{
+      text-align: center;
+  }
+  .col-12{
+      text-align: center;
+    }
+    .col-6{
+      margin: auto;
+      width: 40%;
+      height: 30%;
+      /* border: 3px solid green; */
+      /* padding: 10px; */
+      text-align: center;
+      padding: 20px;
+    }
+    

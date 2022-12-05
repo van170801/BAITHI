@@ -1,0 +1,33 @@
+{
+  "name": "thu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/van170801/BAITHI.git"
+  },
+  "keywords": [
+    "van"
+  ],
+  "author": "van",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/van170801/BAITHI/issues"
+  },
+  "homepage": "https://github.com/van170801/BAITHI#readme",
+  "dependencies": {
+    "alert": "^5.1.2",
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "onclick": "^0.1.0"
+  }
+}
